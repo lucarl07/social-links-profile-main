@@ -6,13 +6,10 @@
 // Importing CSS from App.css:
 import './App.css';
 
-// Importing external images:
-import imgAvatar from '../assets/images/avatar-jessica.jpeg'
-
 const PersonInfo = (props) => {
     return (
         <div className='personInfo'>
-            <img src={props.photo} alt="Foto de perfil do(a) usuário(a)" />
+            <div className='personImage'></div>
             <article>
                 <h1>{props.fullName}</h1>
                 <p>{props.location}</p>
@@ -44,19 +41,19 @@ const SocialMedia = () => {
         <div className='socialMedia'>
             <ul className='btnList'>
                 <li className='listItem'>
-                    <AnchorButton name='GitHub' href='' />
+                    <AnchorButton name='GitHub' href='#' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Frontend Mentor' href='' />
+                    <AnchorButton name='Frontend Mentor' href='#' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Linkedin' href='' />
+                    <AnchorButton name='Linkedin' href='#' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Twitter' href='' />
+                    <AnchorButton name='Twitter' href='#' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Instagram' href='' />
+                    <AnchorButton name='Instagram' href='#' />
                 </li>
             </ul>
         </div>
@@ -67,7 +64,7 @@ const SocialMedia = () => {
 const App = () => {
     return (
         <section className='float'>
-            <PersonInfo fullName="Jessica Randall" location="London, United Kingdom" photo={imgAvatar} />
+            <PersonInfo fullName="Luiz Carlos dos Santos Júnior" location="Maceió, Alagoas" />
             <Quote quote="Front-end developer and avid reader." />
             <SocialMedia />
         </section>

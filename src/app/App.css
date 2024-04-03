@@ -20,8 +20,12 @@
     width: 100%;
     gap: 2rem;
 }
-.personInfo img {
+.personInfo .personImage {
     width: 128px;
+    height: 128px;
+    background-image: url('../assets/images/avatar-luiz.jpg');
+    background-size: cover;
+    background-position-y: center;
     border-radius: 64px;
 }
 .personInfo article {
