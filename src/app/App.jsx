@@ -41,10 +41,10 @@ const SocialMedia = () => {
         <div className='socialMedia'>
             <ul className='btnList'>
                 <li className='listItem'>
-                    <AnchorButton name='GitHub' href='#' />
+                    <AnchorButton name='GitHub' href='https://github.com/lucarl07' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Frontend Mentor' href='#' />
+                    <AnchorButton name='Frontend Mentor' href='https://www.frontendmentor.io/profile/lucarl07' />
                 </li>
                 <li className='listItem'>
                     <AnchorButton name='Linkedin' href='#' />
@@ -53,7 +53,7 @@ const SocialMedia = () => {
                     <AnchorButton name='Twitter' href='#' />
                 </li>
                 <li className='listItem'>
-                    <AnchorButton name='Instagram' href='#' />
+                    <AnchorButton name='Instagram' href='https://www.instagram.com/07luizjr?igsh=NTNscWlwbTRkOGZu' />
                 </li>
             </ul>
         </div>
